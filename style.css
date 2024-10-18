@@ -1,0 +1,45 @@
+header {
+    display:flex;
+    position:fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    background-color:rgb(46, 46, 243);
+    height:70px;
+    z-index:1;
+}
+header > h1 {
+    position:absolute;
+    left:20px;
+    font-family:serif;
+    font-size:30px;
+    color:white;
+    text-wrap:nowrap;
+}
+
+footer {
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    height:40px;
+    font-family:serif;
+    font-size:smaller;
+    text-align:center;
+    border: 2px solid #808080;
+    background-color:#bebebe;
+    z-index:1;
+}
+#content {
+    display:flex;
+    gap:10px;
+    position:relative;
+    padding-top:70px;
+    padding-bottom:42px;
+}
+#photo {
+    max-width:30vw;
+}
+#photo img {
+    max-width:30vw;
+}
